@@ -39,6 +39,17 @@ public class EmpController {
 
 		return s.m1();
 	}
+	/*Modifiy Strat*/
+	@RequestMapping("/v3")
+	public ArrayList load1() {
+
+		
+		
+		logger.info("This is Employ Method3");
+
+		return s.m1();
+	}
+	/*Modified End */
 	@RequestMapping("/v4")
 	
 	public ArrayList load1() {
